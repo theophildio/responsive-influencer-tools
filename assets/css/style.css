@@ -39,13 +39,11 @@ h2 {
   color: var(--base-font-color);
   font-size: 52px;
   font-weight: 700;
-  line-height: 70px;
 }
 
 h3 {
   color: var(--base-font-color);
   font-size: 28px;
-  line-height: 70px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -53,7 +51,6 @@ h3 {
 h4 {
   color: var(--base-font-color);
   font-size: 28px;
-  line-height: 40px;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -216,18 +213,17 @@ p {
 }
 
 .tool_card h4 {
-  margin: 16px 0;
+  margin: 14px 0;
 }
 
 .tool_card p {
   color: rgba(0, 0, 0, 0.87);
   font-size: 24px;
-  line-height: 36px;
   font-weight: 400;
 }
 
 .tool_ratings {
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 .tool_ratings .fas {
@@ -258,6 +254,9 @@ p {
 
 /* Get in Touch Styles */
 
+.contact {
+  padding: 55px 0;
+}
 .contact h3 {
   text-align: center;
 }
@@ -306,6 +305,36 @@ p {
   width: 30%;
   border-radius: 56px;
   cursor: pointer;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer h3 {
+  color: #D9DBE1;
+}
+
+.footer p {
+  color: #D9DBE1;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.footer-social-icons li {
+  display: inline-block;
+  list-style: none;
+  margin: 17px 8px;
+}
+
+.footer-social-icons li a {
+  color: #D9DBE1;
+  font-size: 14px;
 }
 
 
