@@ -256,4 +256,56 @@ p {
   text-align: right;
 }
 
+/* Get in Touch Styles */
+
+.contact h3 {
+  text-align: center;
+}
+
+.contact h4 {
+  margin-bottom: 30px;
+}
+
+.contact-area {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 55px;
+  justify-content: space-between;
+}
+
+.contact-map iframe{
+  width: 100%;
+  height: 435px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contact_form input, textarea {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #24A19C;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+.contact_form input::placeholder {
+  color: var(--base-font-color);
+  font-size: 16px;
+}
+
+.contact_form textarea, textarea::placeholder {
+  resize: none;
+  color: var(--base-font-color);
+  font-size: 16px;
+}
+
+.contact_form input.primary-btn {
+  width: 30%;
+  border-radius: 56px;
+  cursor: pointer;
+}
+
 
