@@ -384,6 +384,10 @@ p {
     border-radius: 5px;
   }
 
+  .navigation li:last-child {
+    display: none;
+  }
+
   .navigation li a {
     color: #D9DBE1;
   }
@@ -488,6 +492,10 @@ p {
     transform: translateX(-100%);
     transition: 0.7s ease-in-out;
     border-radius: 5px;
+  }
+
+  .navigation li:last-child {
+    display: none;
   }
 
   .navigation li a {
