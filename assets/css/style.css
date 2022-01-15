@@ -10,3 +10,61 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+/* Common Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+span {
+  color: #F05454;
+}
+
+/* Header Styles */
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header_menu_logo a {
+  color: #121212;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+} 
+
+.header-menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header-menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #121212;
+  padding: 10px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.header-menu li:hover a {
+  color: #F05454;
+}
+
+/* Menu Toggler Styles */
+
+#header_menu_toggler {
+  display: none;
+}
+
+.header_menu_toggler_icon {
+  color: #F05454;
+  cursor: pointer;
+  display: none;
+}
