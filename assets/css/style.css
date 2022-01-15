@@ -15,10 +15,55 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+:root {
+  --base-font-color: #3A3A3A;
+  --primary-btn: #24A19C;
+  --hover-color: #24A19C;
 }
 
 span {
-  color: #F05454;
+  color: #24A19C;
+  text-transform: capitalize;
+}
+
+h2 {
+  color: var(--base-font-color);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+p {
+  color: var(--base-font-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--primary-btn);
+  font-size: 16px ;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 18px;
+  padding: 10px 24px;
+  border-radius: 56px;
+  transition: 0.5s ease-in-out;
+}
+
+.primary-btn:hover {
+  transform: translateY(10px);
+}
+
+.primary-btn i {
+  margin-left: 10px;
 }
 
 /* Header Styles */
@@ -27,11 +72,11 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 87px;
 }
 
 .header_menu_logo a {
-  color: #121212;
+  color: var(--base-font-color);
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
@@ -47,14 +92,15 @@ span {
 .header-menu li a {
   display: inline-block;
   text-decoration: none;
-  color: #121212;
+  color: var(--base-font-color);
+  font-size: 16px;
   padding: 10px;
   text-transform: capitalize;
   transition: 0.3s;
 }
 
 .header-menu li:hover a {
-  color: #F05454;
+  color: var(--hover-color);
 }
 
 /* Menu Toggler Styles */
@@ -64,7 +110,35 @@ span {
 }
 
 .header_menu_toggler_icon {
-  color: #F05454;
+  color: var(--primary-btn);
   cursor: pointer;
   display: none;
+}
+
+/* Banner Styles */
+
+.banner {
+  margin-top: 55px;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.banner-left p {
+  margin-top: 16px;
+  padding-right: 15px;
+}
+
+.banner-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-right img {
+	width: 82%;
+  border: 6px solid rgba(18, 18, 18, 0.048);
+  border-radius: 50%;
 }
