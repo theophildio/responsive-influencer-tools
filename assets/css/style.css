@@ -12,7 +12,7 @@ body {
 }
 /* Common Styles */
 
-.container {
+main, .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -142,3 +142,21 @@ p {
   border: 6px solid rgba(18, 18, 18, 0.048);
   border-radius: 50%;
 }
+
+/* Partners Styles */
+
+.partners {
+  margin-top: 55px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  border-width: 2px 0;
+  border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.39) 0%, rgba(165, 165, 165, 0.192) 50%, rgba(255, 255, 255, 0.39) 100%) 1;
+}
+
+.partners-logo img {
+  width: 80%;
+}
+
